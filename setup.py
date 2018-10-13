@@ -5,6 +5,6 @@ setup(
     packages = ['barcode'],
     entry_points = {
         'console_scripts': [
-            'barcode = barcode.__main__:main'
+            'barcode = barcode.__main__:cli'
         ]
     })
